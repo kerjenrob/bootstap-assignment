@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-one{   
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    display:flex;
+    justify-content: center; 
+    font-size: 50px;
+}
+.section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.container-one {
+    max-width: 500px;
+    margin: 20px;
+}
+.accordion-why {
+    max-width: 500px;
+    margin: 20px;
+}
