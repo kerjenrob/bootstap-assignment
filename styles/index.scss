@@ -5,22 +5,23 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: lightslategrey;
 }
 .section-one{   
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 h1 {
     display:flex;
     justify-content: center; 
     font-size: 50px;
-    color: red;
+    color: lightslategrey;
 }
 .section-two {
     display: flex;
     flex-direction: row;
     justify-content: space-around;  
-    max-width: 80%;
 }
 .container-one {
     max-width: 500px;
@@ -40,6 +41,9 @@ a:visited {
 a:hover {
     transform: scale(1.2); /* dont work*/
 }
+.img {
+    max-width: 500px;
+}
 /*section-three*/
 .section-three {
     display:flex;
@@ -56,10 +60,57 @@ h2 {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
+}
+.btn-blue {
+    background-color: blue;
+    color: white;
+    max-width: 150px;
+    max-height: 40px;
 }
 h3 {
     color: black;
     font-size: 50px;
+}
+.green {
+    background-color: lightgreen;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-green {
+    background-color: green;
+    color: white;
+    max-width: 150px;
+    max-height: 40px;
+}
+.red {
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    max-width: 150px;
+    max-height: 40px;
+}
+.yellow {
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.yellow-card {
+    width: 80%;
+    max-width: 900px;
+    max-height: 900px;
+    
 }
